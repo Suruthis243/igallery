@@ -25,8 +25,9 @@ Validate the HTML and CSS code.
 Publish the website in the given URL.
 
 ## PROGRAM :
-...
-HDML code:
+```
+HTML code:
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -53,7 +54,10 @@ HDML code:
 <script src="script.js"></script>
 
 </html>
+```
+```
 CSS code:
+
 @import url('https://fonts.googleapis.com/css2?family=Delius&family=Pacifico&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body {
@@ -126,7 +130,10 @@ img {
     width: 100%;
     border-radius: 4px;
 }
+```
+```
 JS code:
+
 const imageDiv = document.getElementById("image");
 const originalImageUrl = "";
 const originalText = "Hover over an image below to display here.";
@@ -140,7 +147,7 @@ function unDo() {
   imageDiv.style.backgroundImage = url('${originalImageUrl}');
   imageDiv.innerHTML = originalText;
 }
-...
+```
 
 
 ## OUTPUT:
