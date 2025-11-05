@@ -1,5 +1,5 @@
 # Ex.08 Design of Interactive Image Gallery
-## Date:13.12.2024
+## Date:07.11.2025
 
 ## AIM:
 To design a web application for an inteactive image gallery with minimum five images.
@@ -151,6 +151,7 @@ function unDo() {
 
 
 ## OUTPUT:
+
 ![alt text](<Screenshot 2024-12-13 185529.png>)
 
 ## RESULT:
